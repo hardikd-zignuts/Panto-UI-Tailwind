@@ -7,10 +7,10 @@ const ChoosingUs = () => {
         <div className='my-[120px] max-xl:my-[70px]'>
             <div className="container mx-auto">
                 <div className='flex justify-center items-center max-xl:flex-col px-[20px]'>
-                    <div className="xl:w-1/3 w-full">
+                    <div className="xl:w-1/4 w-full">
                         <div className='main-title text-center xl:text-start leading-[49px] w-[242px] max-xl:w-full max-xl:my-[15px] max-md:text-[29px] max-md:leading-[38px]'>Why Choosing Us</div>
                     </div>
-                    <div className="xl:w-2/3 w-full">
+                    <div className="xl:w-3/4 w-full">
                         <div className="grid lg:grid-cols-3 grid-cols-1 gap-3">
                             {
                                 ChoiceData.map(ele => {

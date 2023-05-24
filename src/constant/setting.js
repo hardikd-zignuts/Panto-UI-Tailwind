@@ -2,8 +2,8 @@ export const ProductSettings = {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 4,
-    initialSlide: 0,
+    slidesToScroll: 1,
+    initialSlide: 1,
     responsive: [
         {
             breakpoint: 1200,

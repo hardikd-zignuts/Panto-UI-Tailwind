@@ -53,6 +53,13 @@ const SellingProductData = [
     {
         id: 'p4',
         category: 'Chair',
+        name: 'Sakarias Armchair',
+        price: 392,
+        image: Product1
+    },
+    {
+        id: 'p5',
+        category: 'Chair',
         name: 'Nyantuy Chair',
         price: 921,
         image: Product4

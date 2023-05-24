@@ -29,6 +29,7 @@ module.exports = {
       "Gilroy-Medium": ["Gilroy-Medium", "sans-sarif"],
       "Gilroy-Regular": ["Gilroy-Regular", "sans-sarif"],
       "Inter-Regular": ["Inter-Regular", "sans-sarif"],
+      "Inter": ["Inter", "sans-sarif"],
     },
 
     extend: {
