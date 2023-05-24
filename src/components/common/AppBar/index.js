@@ -1,69 +1,34 @@
 import React from 'react'
 import { HiShoppingBag } from 'react-icons/hi'
-import { Navbar, Dropdown } from 'flowbite-react'
+import { Navbar } from 'flowbite-react'
+import './../../../assets/scss/style.scss';
 
 const AppBar = () => {
     return (
         <>
             <Navbar
-                fluid={true}
-                rounded={true}
+                className='pt-[41px] max-md:pt-[22px] max-sm:pt-[12px] mx-[80px] max-lg:mx-[50px] max-xs:mx-[37px]'
+                fluid={false}
             >
-                <Navbar.Brand href="https://flowbite.com/">
-                    <img
-                        src="https://flowbite.com/docs/images/logo.svg"
-                        className="mr-3 h-6 sm:h-9"
-                        alt="Flowbite Logo"
-                    />
-                    <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-                        Flowbite
-                    </span>
+                <Navbar.Brand href="/" className='text-[28px] leading-[33px] tracking-[0.01em] max-xl:text-[24px] max-md:text-[21px] capitalize'>
+                    Panto
                 </Navbar.Brand>
                 <div className="flex md:order-2">
                     <div className='relative'>
                         <HiShoppingBag size={30} />
-                        <div className="absolute right-[4px] top-[2px]">0</div>
+                        <div className="absolute px-[3px] right-[-2px] top-[4px] bag-bg rounded-[105px] text-[12px] text-white font-bold">0</div>
                     </div>
                     <Navbar.Toggle />
                 </div>
                 <Navbar.Collapse>
-                    <Navbar.Link
-                        href="/navbars"
-                        active={true}
-                    >
-                        Home
-                    </Navbar.Link>
-                    <Navbar.Link href="/navbars">
-                        <Dropdown
-                            label="Dropdown button"
-                            dismissOnClick={false}
-                        >
-                            <Dropdown.Item>
-                                Dashboard
-                            </Dropdown.Item>
-                            <Dropdown.Item>
-                                Settings
-                            </Dropdown.Item>
-                            <Dropdown.Item>
-                                Earnings
-                            </Dropdown.Item>
-                            <Dropdown.Item>
-                                Sign out
-                            </Dropdown.Item>
-                        </Dropdown>
-                    </Navbar.Link>
-                    <Navbar.Link href="/navbars">
-                        Services
-                    </Navbar.Link>
-                    <Navbar.Link href="/navbars">
-                        Pricing
-                    </Navbar.Link>
-                    <Navbar.Link href="/navbars">
-                        Contact
-                    </Navbar.Link>
+                    <Navbar.Link className='navLink-text' href="/">Furniture</Navbar.Link>
+                    <Navbar.Link className='navLink-text' href="/">Shop</Navbar.Link>
+                    <Navbar.Link className='navLink-text' href="/">About Us</Navbar.Link>
+                    <Navbar.Link className='navLink-text' href="/">Contact</Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>
         </>
     )
 }
 export default AppBar
+

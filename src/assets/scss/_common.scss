@@ -1,0 +1,21 @@
+@import './variable';
+
+.bag-bg {
+    background: $bag-bg;
+}
+
+.bg-top-center {
+    background-position: top center;
+}
+
+// Apply 
+@layer components {
+    .hero-sec {
+        @apply bg-[url('/src/assets/image/hero-bg.svg')] text-white bg-cover max-md:bg-contain max-sm:bg-cover bg-no-repeat bg-top-center min-h-[1084px] max-xl:min-h-[830px] max-lg:min-h-[670px] max-md:min-h-[580px] max-sm:min-h-[486px]
+    }
+    .navLink-text{
+        font-family: 'Gilroy-Medium';
+        color: white !important;
+       @apply mx-[31px] text-[18px] leading-[21px] border-none text-center text-white max-xl:text-[14px] max-xl:leading-[18px] max-xs:text-[11px] max-xs:leading-[12px]
+    }
+}

@@ -1,10 +1,10 @@
 import './assets/scss/style.scss';
-import AppBar from './components/common/AppBar';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
     <>
-      <AppBar />
+      <Home />
     </>
   );
 }

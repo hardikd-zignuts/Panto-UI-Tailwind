@@ -1,0 +1,51 @@
+@import './../../assets/scss/style.scss';
+
+
+.hero-box_input {
+
+    input {
+        // border: none;
+        // background: transparent;
+        // margin: 7.5px 0px 7.5px 20px;
+        // color: white;
+
+        @include xl {
+            margin: 3.5px 0px 3.5px 20px;
+        }
+
+        @include lg {
+            margin: -1.5px 0px -1.5px 20px;
+            font-size: 13px;
+        }
+
+        @include xs {
+            margin: 0;
+            padding-block: 4px;
+            font-size: 10px;
+        }
+    }
+
+    img {
+        position: absolute;
+        right: 3px;
+        height: 46px;
+        top: 4px;
+
+        @include xl {
+            height: 34px;
+        }
+
+        @include lg {
+            height: 28px;
+        }
+
+        @include sm {
+            height: 25px;
+            top: 5px;
+        }
+
+        @include xs {
+            height: 21px;
+        }
+    }
+}
