@@ -13,8 +13,10 @@ const Hero = () => {
                     Turn your room with panto into a lot more minimalist and modern with ease and speed
                 </div>
                 <div className='hero-box_input relative w-[344px] gap-2.5 backdrop-blur-sm leading-[150%] text-start text-white opacity-80 flex-none order-none grow-0 mt-[45px] rounded-[42px] border-[0.861538px] border-solid border-[rgba(255,255,255,0.6)] background: rgba(255, 255, 255, 0.15) max-xl:mt-[16px] max-lg:w-[269px] max-sm:w-[218px] max-xs:w-[171px]'>
-                    <input className='text-white ml-5 mr-0 my-[7.5px] border-none bg-transparent focus:outline-none focus:ring-none focus:ring-transparent placeholder:text-white max-lg:placeholder:text-[13px] max-sm:placeholder:text-[12px] max-xs:placeholder:text-[10px]' type="text" placeholder="Search furniture" />
-                    <img src={search} alt="search" />
+
+                    <input className='text-white ml-5 mr-0 my-[7.5px] border-none bg-transparent focus:outline-none focus:ring-none focus:ring-transparent placeholder:text-white max-lg:placeholder:text-[13px] max-sm:placeholder:text-[12px] max-xs:placeholder:text-[10px] max-xl:my-[5.5px] max-xl:mr-0 max-xl:ml-[20px] max-lg:my-[1.5px] max-lg:text-[13px] max-sm:my-[-1.5px] max-xs:my-[1.5px] max-xs:py-[4px] max-xs:text-[10px]' type="text" placeholder="Search furniture" />
+
+                    <img className='absolute top-[4px] h-[46px] right-[3px] max-xl:top-[8px] max-xl:h-[34px] max-lg:h-[28px] max-sm:h-[25px] max-sm:top-[5px] max-xs:h-[21px]' src={search} alt="search" />
                 </div>
             </div>
         </>

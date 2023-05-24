@@ -16,7 +16,7 @@ const AppBar = () => {
                 <div className="flex md:order-2">
                     <div className='relative'>
                         <HiShoppingBag size={30} />
-                        <div className="absolute px-[3px] right-[-2px] top-[4px] bag-bg rounded-[105px] text-[12px] text-white font-bold">0</div>
+                        <div className="absolute px-[3px] right-[-2px] top-[4px] bg-bag-bg rounded-[105px] text-[12px] text-white font-bold">0</div>
                     </div>
                     <Navbar.Toggle />
                 </div>
