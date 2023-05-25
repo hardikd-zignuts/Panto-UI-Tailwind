@@ -2,7 +2,6 @@ import React from 'react'
 import ContentBox from '../../components/Experience/ContentBox'
 import box1 from './../../assets/image/icon/box-1-new.png'
 import box2 from './../../assets/image/icon/box-2-new.png'
-import './experience.scss';
 
 const Experience = () => {
     return (
@@ -10,8 +9,8 @@ const Experience = () => {
             <div className="container-fluid">
                 <div className="flex items-center max-xl:flex-col">
                     <div className="xl:w-1/2 w-full">
-                        <div className="experience-image relative h-[520px] w-full max-[705px]:w-[70%] max-[705px]:h-[380px] max-[460px]:h-[316px] max-[511px]:w-full max-[350px]:h-[256px]">
-                            <img className='max-w-full absolute top-0 left-0' src={box1} alt="box1" />
+                        <div className="experience-image relative h-[520px] w-full max-[705px]:w-[70%] max-[705px]:h-[380px] max-[460px]:h-[316px] max-[511px]:w-full max-sm:h-[416px] max-[350px]:h-[256px]">
+                            <img className='max-w-full absolute top-[2px] z-[1] max-[705]:left-[-62px] max-md:top-[-29px]' src={box1} alt="box1" />
                         </div>
                     </div>
                     <div className="xl:w-1/2 w-full">
@@ -19,12 +18,12 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
-            <div className="material max-[350px]:mt-[88px]">
+            <div className="material ml-[80px] mt-[394px] max-xl:mt-[245px] max-xl:ml-0 max-md:mt-[109px] max-[705px]:mt-[130px] ">
                 <div className="container-fluid">
                     <div className="flex flex-row-reverse max-xl:flex-col">
                         <div className="xl:w-1/2 w-full">
-                            <div className="material-image">
-                                <img src={box2} alt="box1Right" />
+                            <div className="material-image relative h-[520px] w-full max-[705px]:h-[450px] max-sm:h-[324px] max-xs:h-[250px]">
+                                <img className='max-w-full absolute top-[-66px] right-0 z-[1] max-sm:max-w-[82%] max-sm:top-[-36px] max-[400px]:max-w-full max-[400px]:top-[7px]' src={box2} alt="box1Right" />
                             </div>
                         </div>
                         <div className="xl:w-1/2 w-full">
