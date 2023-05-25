@@ -30,6 +30,7 @@ module.exports = {
       "Gilroy-Regular": ["Gilroy-Regular", "sans-sarif"],
       "Inter-Regular": ["Inter-Regular", "sans-sarif"],
       "Inter": ["Inter", "sans-sarif"],
+      "DM-Sans": ["DM Sans", "sans-sarif"],
     },
 
     extend: {
@@ -37,6 +38,7 @@ module.exports = {
         'hero-section': "url('/src/assets/image/hero-bg.svg')",
         'prev-arr': "url('/src/assets/image/icon/prev-arrow.svg')",
         'next-arr': "url('/src/assets/image/icon/next-arrow.svg')",
+        'union': "url('/src/assets/image/icon/Union.png')",
       }
     },
   },

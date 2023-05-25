@@ -3,6 +3,8 @@ import ChoosingUs from './pages/ChoosingUs';
 import Experience from './pages/Experience';
 import Home from './pages/Home/Home';
 import SellingProduct from './pages/Selling';
+import Testimonials from './pages/Testimonials';
+import Footer from './components/common/Footer'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <ChoosingUs />
       <SellingProduct />
       <Experience />
+      <Testimonials />
+      <Footer />
     </>
   );
 }
