@@ -19,7 +19,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='xl:w-2/3 w-full'>
+                            <div className='xl:w-2/3 w-full max-lg:mt-5'>
                                 <div className='flex items-start justify-around flex-wrap'>
                                     <div className="footer-link">
                                         <li className="link">Services</li>

@@ -4,14 +4,13 @@
 @import "./../fonts/gilroy-bold/gilroy-font.scss";
 @import "./variable";
 @import "./mixin";
-@import "./fonts";
 @import './common';
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    transition: 0.5s all ease-in;
+    // transition: 0.5s all ease-in;
 }
 
 li {
