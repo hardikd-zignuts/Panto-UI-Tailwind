@@ -34,7 +34,9 @@ module.exports = {
 
     extend: {
       backgroundImage: {
-        'hero-section': "url('src/assets/image/hero-bg.svg')",
+        'hero-section': "url('/src/assets/image/hero-bg.svg')",
+        'prev-arr': "url('/src/assets/image/icon/prev-arrow.svg')",
+        'next-arr': "url('/src/assets/image/icon/next-arrow.svg')",
       }
     },
   },

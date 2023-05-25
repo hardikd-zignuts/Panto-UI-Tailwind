@@ -4,7 +4,6 @@ import { Category, SellingProductData } from '../../constant/CardData'
 import Slider from 'react-slick'
 import { ProductSettings } from '../../constant/setting'
 import Arrow from './../../assets/image/icon/right-arrow.svg'
-import './selling.scss'
 
 const SellingProduct = () => {
     const [isActive, setIsActive] = useState(0);
@@ -19,7 +18,7 @@ const SellingProduct = () => {
                         {
                             Category.map((cat, index) => {
                                 return (
-                                    <button onClick={() => setIsActive(index)} key={cat} className={`category-name border-0 ${isActive === index && 'active-cat'}`}>{cat}</button>
+                                    <button onClick={() => setIsActive(index)} key={cat} className={`text-title-text text-lg leading-[185%] font-Gilroy-Regular opacity-80 flex-none order-none grow-0 px-[15.5px] py-[7px] max-md:text-[13px] max-md:leading-[147%] border-0 ${isActive === index && 'active-cat'}`}>{cat}</button>
                                 )
                             })
                         }

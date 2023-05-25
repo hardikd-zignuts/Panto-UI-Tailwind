@@ -1,4 +1,5 @@
 @import './variable';
+@import './mixin';
 
 
 .bg-top-center {
@@ -8,12 +9,55 @@
 // Apply 
 @layer components {
     .hero-sec {
-        @apply bg-[url('/src/assets/image/hero-bg.svg')] text-white bg-cover max-md:bg-contain max-sm:bg-cover bg-no-repeat bg-top-center min-h-[1084px] max-xl:min-h-[830px] max-lg:min-h-[670px] max-md:min-h-[580px] max-sm:min-h-[486px]
+        @apply bg-hero-section text-white bg-cover max-md:bg-contain max-sm:bg-cover bg-no-repeat bg-top-center min-h-[1084px] max-xl:min-h-[830px] max-lg:min-h-[670px] max-md:min-h-[580px] max-sm:min-h-[486px];
     }
 
     .navLink-text {
         font-family: 'Gilroy-Medium';
         color: white !important;
-        @apply mx-[31px] text-[18px] leading-[21px] border-none text-center text-white max-xl:text-[14px] max-xl:leading-[18px] max-xs:text-[11px] max-xs:leading-[12px]
+        @apply mx-[31px] text-[18px] leading-[21px] border-none text-center text-white max-xl:text-[14px] max-xl:leading-[18px] max-xs:text-[11px] max-xs:leading-[12px];
+    }
+
+    .active-cat {
+        @apply flex items-center justify-center gap-2.5 flex-none order-none grow-0 px-[19.5px] py-[7px] rounded-[32px] bg-white;
+    }
+
+}
+
+
+.slick-slider {
+    background-color: $selling-bg;
+    padding-bottom: 10px;
+
+    .slick-arrow {
+        background-position: center;
+        width: 50px;
+        height: 50px;
+        z-index: 1;
+        background-repeat: no-repeat;
+        padding: 11.9565px;
+        box-shadow: 0px 7.03125px 19.5312px rgba(0, 0, 0, 0.06);
+        border-radius: 26.087px;
+    }
+
+    .slick-prev {
+        background-image: url("../image/icon/prev-arrow.svg") !important;
+
+        @include sm {
+            margin-left: 30px;
+        }
+
+        &::before {
+            content: none;
+        }
+    }
+
+    .slick-next {
+        background-image: url("../image/icon/next-arrow.svg") !important;
+        margin-right: 30px;
+
+        &::before {
+            content: none;
+        }
     }
 }
