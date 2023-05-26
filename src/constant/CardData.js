@@ -74,7 +74,6 @@ const ReviewData = [
         name: "Pedagang Asongan",
         review: "Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal",
         bg: client1bg
-
     },
     {
         id: "r2",
@@ -91,6 +90,15 @@ const ReviewData = [
         name: "Karyawan Swasta",
         review: "Sangat terjangkau untuk kantong saya yang tidak terlalu banyak",
         bg: client3bg
+    },
+    {
+        id: "r4",
+        image: client1,
+        title: "Bang Upin",
+        name: "Pedagang Asongan",
+        review: "Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal",
+        bg: client1bg
+
     },
 ];
 
